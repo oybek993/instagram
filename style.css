@@ -1,7 +1,9 @@
 html {
-    background-color: rgba(var(--b3f, 250, 250, 250), 1);
+    background: rgba(var(--b3f, 250, 250, 250), 1);
+    box-sizing: border-box;
     
 }
+/* <navbar> */
 .navbar {
     background-color: #fff;
 }
@@ -11,4 +13,70 @@ html {
 }
 .navbar > div > div {
     margin: 20%;
+}
+.links {
+    list-style: none;
+   position: absolute;
+   display: inline-block;
+   
+}
+.links > li {
+    padding: 7px;
+}
+.search {
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+/* </navbar> */
+/* <story> */
+.story {
+    width: 45%;
+    margin: auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    margin-top: 3%;
+    margin-left: 12%;
+    padding: 15px;
+    
+}
+.story > li {
+    cursor: pointer;
+    padding: 5px;
+
+}
+.story > li > img {
+    width: 66px;
+    border-radius: 50%;
+    border: 2px solid #e63b57;
+    height: 66px;
+}
+
+.story > li > span {
+ 
+        letter-spacing: .01em;
+           color: #262626;
+        color: rgba(var(--i1d, 38, 38, 38), 1);
+        display: block;
+        font-size: 12px;
+        line-height: 14px;
+        max-width: 64px;
+        overflow: hidden;
+        
+        text-align: center;
+        text-overflow: ellipsis;
+        top: 68px;
+        white-space: nowrap;
+}
+/* </story> */
+/* <main-content> */
+.showcase {
+    width: 45%;
+    margin: auto;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    /* position: absolute; */
+    /* margin-top: 3%;
+    margin-left: 12%; */
 }
