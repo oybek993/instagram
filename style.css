@@ -1,15 +1,21 @@
 html, body {
     background: rgba(var(--b3f, 250, 250, 250), 1);
     box-sizing: border-box;
-    
+}
+a, a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 /* <navbar> */
 .navbar {
     background-color: #fff;
+
 }
 .navbar > div {
     margin: auto;
     width: 78%;
+    
 }
 .navbar > div > div {
     margin: 20%;
@@ -76,7 +82,77 @@ html, body {
     margin: auto;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
-    /* position: absolute; */
-    /* margin-top: 3%;
-    margin-left: 12%; */
+    margin-top: 3%;
+    margin-left: 12%;
+    background: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.showcase > div > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #e63b57;
+    
+}
+.buttons > button {
+    border: 0;
+    background-color: #fff;
+    
+}
+.likes {
+    font-style: inherit;
+    font-variant-ligatures: inherit;
+    font-variant-caps: inherit;
+    font-variant-numeric: inherit;
+    font-variant-east-asian: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+.info {
+    text-align: start;
+    padding: 16px;
+    font-weight: 500;
+}
+.info > p {
+    color: rgba(var(--fe0, 0, 55, 107), 1);
+    font-weight: 400;
+    font-size: 14px;
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+    line-height: 18px;
+    margin-bottom: 0;
+
+}
+.comment {
+    border-top: 1px solid #dbdbdb;
+    min-height: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.comment > input, button {
+    border: 0;
+    background-color: #fff;
+    text-align: center;
+}
+textarea {
+    resize: none;
+    height: 100%;
+    width: 90%;
+    border: 0;
+}
+textarea::placeholder {
+    padding-top: 10px;
 }
